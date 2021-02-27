@@ -16,12 +16,14 @@
     .home-travel {
         width: 720px;
         margin-left: 24px;
+        margin-right: 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .home-travel {
-        width: 288px;
+        width: auto;
         margin-left: 16px;
+        margin-right: 16px;
     }
 }
