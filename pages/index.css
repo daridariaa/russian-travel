@@ -38,6 +38,13 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__text/place__text.css);
 
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__text/cover__text.css);
+
 @font-face {
     font-family: Inter;
     src: url(../fonts/Inter-Regular.otf);
@@ -55,4 +62,3 @@
     src: url(../fonts/Inter-ExtraBold.otf);
     font-weight: 900;
 }
-
