@@ -1,0 +1,13 @@
+.place__bottom-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 767px) {
+    .place__bottom-row {
+        flex-direction: column;
+    }
+}

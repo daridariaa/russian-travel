@@ -1,0 +1,15 @@
+.place__upper-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 767px) {
+    .place__upper-row {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 32px;
+    }
+}
