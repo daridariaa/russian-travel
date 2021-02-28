@@ -6,10 +6,6 @@
     margin-bottom: 48px;
 }
 
-.place__bottom-row {
-    margin-bottom: 0;
-}
-
 @media screen and (max-width: 767px) {
     .place__bottom-row {
         flex-direction: column;
