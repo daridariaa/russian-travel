@@ -1,0 +1,5 @@
+.cover__title-link {
+    text-decoration: none;
+    /*pointer-events: auto;*/
+    cursor: pointer;
+}
