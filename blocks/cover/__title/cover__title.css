@@ -7,7 +7,7 @@
     margin-top: 0;
     z-index: 2;
     color: white;
-    /*text-decoration: none;*/
+    width: 560px;
 }
 
 @media screen and (max-width: 767px) {
@@ -15,5 +15,6 @@
         font-size: 32px;
         line-height: 35px;
         margin-bottom: 16px;
+        width: 288px;
     }
 }
