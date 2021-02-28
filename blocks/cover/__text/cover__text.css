@@ -8,5 +8,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    pointer-events: none;
+    background-color: rgba(42, 44, 47, 0.3);
+}
+
+.cover__text:hover {
+    background-color: rgba(42, 44, 47, 0.8);
 }

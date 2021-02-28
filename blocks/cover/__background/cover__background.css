@@ -1,4 +1,4 @@
 .cover__background {
     width: 100%;
-    background-color: rgba(42, 44, 47, 0.3);
+    display: block;
 }
