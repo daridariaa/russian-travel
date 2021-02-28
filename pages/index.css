@@ -6,7 +6,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__languages/header__languages.css);
 @import url(../blocks/header/__lang/header__lang.css);
-@import url(../blocks/header/__lang/_locale/header__lang_locale_en.css);
+@import url(../blocks/header/__lang/_inactive/header__lang__inactive.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
@@ -18,9 +18,9 @@
 @import url(../blocks/home-travel/home-travel.css);
 @import url(../blocks/home-travel/__text/home-travel__text.css);
 @import url(../blocks/home-travel/__title/home-travel__title.css);
+@import url(../blocks/home-travel/__stats/home-travel__stats.css);
 @import url(../blocks/home-travel/__stats-text/home-travel__stats-text.css);
-
-@import url(../blocks/variety/variety.css);
+@import url(../blocks/home-travel/__stats-number/home-travel__stats-number.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
