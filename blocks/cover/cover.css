@@ -2,6 +2,8 @@
     margin-top: 92px;
     margin-bottom: 92px;
     position: relative;
+    margin-right: 48px;
+    margin-left: 48px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -22,6 +24,13 @@
     .cover {
         margin-top: 66px;
         margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
