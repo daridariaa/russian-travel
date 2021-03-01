@@ -3,6 +3,9 @@
     color: white;
     text-decoration: none;
     transition: ease 0.5s;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 .header__lang:last-child {
@@ -11,4 +14,11 @@
 
 .header__lang:hover {
     opacity: 80%;
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
