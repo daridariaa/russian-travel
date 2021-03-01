@@ -17,3 +17,9 @@
         margin-right: 0;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .place__image {
+        margin-right: 28px;
+    }
+}
