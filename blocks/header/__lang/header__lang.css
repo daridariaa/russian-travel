@@ -1,8 +1,14 @@
 .header__lang {
     margin-right: 18px;
     color: white;
+    text-decoration: none;
+    transition: ease 0.5s;
 }
 
 .header__lang:last-child {
     margin-right: 0;
+}
+
+.header__lang:hover {
+    opacity: 80%;
 }

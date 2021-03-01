@@ -6,4 +6,12 @@
     bottom: 0;
     right: 0;
     transition: ease 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover__overlay:hover {
+    background-color: rgba(42, 44, 47, 0.8);
 }

@@ -6,13 +6,6 @@
     margin-left: 48px;
 }
 
-@media screen and (min-width: 1280px) {
-    .cover {
-        margin-left: 48px;
-        margin-right: 48px;
-    }
-}
-
 @media screen and (max-width: 1023px) {
     .cover {
         margin-top: 90px;

@@ -1,21 +1,13 @@
 .cover__background {
-    display: flex;
     background-image: url(../../../images/cover-trains.jpg);
-    height: calc(100vw/1.6);
+    min-height: calc(100vw/1.6);
     width: 100%;
     background-size: cover;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.cover__background:hover .cover__overlay {
-    background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (min-width: 1280px) {
     .cover__background {
-        height: 740px;
+        min-height: 740px;
         width: 1184px;
     }
 }
