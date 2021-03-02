@@ -1,12 +1,18 @@
-.cover__background {
+.cover__link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(../../../images/cover-trains.jpg);
     min-height: calc(100vw/1.6);
     width: 100%;
     background-size: cover;
+    position: relative;
 }
 
 @media screen and (min-width: 1280px) {
-    .cover__background {
+    .cover__link {
         min-height: 740px;
         width: 1184px;
     }
